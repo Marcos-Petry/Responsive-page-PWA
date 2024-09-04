@@ -33,12 +33,12 @@ header:hover {
     padding: 1.5rem 6rem;
 }
 
-.nav-list {
+.navegacao {
     display: flex;
     align-items: center;
 }
 
-.nav-list ul {
+.navegacao ul {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -70,7 +70,7 @@ a:hover {
     font-weight: 400;
 }
 
-.mobile-menu-icon {
+.menu-mobile {
     display: none;
 }
 
@@ -94,6 +94,41 @@ footer {
 
 footer:hover {
     transform: translateY(-5px);
+}
+
+
+/* t */
+
+.rede-social {
+    margin-top: 20px;
+}
+
+.rede-social ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.rede-social li {
+    margin-right: 15px;
+}
+
+.rede-social img {
+    width: 30px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.rede-social img:hover {
+    transform: scale(1.1);
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 .texto-informativo {
@@ -163,11 +198,11 @@ h1 {
         display: none;
     }
 
-    .mobile-menu-icon {
+    .menu-mobile {
         display: block;
     }
 
-    .mobile-menu-icon button {
+    .menu-mobile button {
         background-color: transparent;
         border: none;
         cursor: pointer;
@@ -199,11 +234,18 @@ h1 {
     }
 
     .texto-informativo {
-        text-align: justify;
         margin-bottom: 30px;
         font-size: 14px;
         font-weight: bold;
         color: #333;
-    }
-    
+    }   
+}
+
+@media screen and (max-width: 850px) {
+    .texto-informativo {
+        text-align: justify;
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }  
 }

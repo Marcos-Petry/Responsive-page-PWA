@@ -6,43 +6,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo/style.css">
-    <title>A Definir</title>
+    <title>Vibra Modas Esportivas</title>
 </head>
 
 <body>
     <header>
-        <nav class="nav-bar">
+        <nav id="inicio-pag" class="nav-bar">
             <div class="logo">
                 <h1><img class="imgLogo" src="componente/imgLogo.png" alt=""></h1>
                 <h1>Vibra</h1>
             </div>
-            <div class="nav-list">
+            <div class="navegacao">
                 <ul>
-                    <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Quem Somos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="#inicio-pag" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Quem Somos</a></li>
+                    <li class="nav-item"><a href="#info-contato" class="nav-link">Contato</a></li>
                 </ul>
             </div>
-            <div class="mobile-menu-icon">
-                <button onclick="menuShow()"><img class="icon" src="componente/iconMenu/menu.svg" alt=""></button>
+            <div class="menu-mobile">
+                <button onclick="menuShow()"><img class="icon" src="componente/iconMenu/menu.svg" alt="Menu"></button>
             </div>
         </nav>
         <div class="mobile-menu">
             <ul>
-                <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Quem Somos</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="#inicio-pag" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#sobre" class="nav-link">Quem Somos</a></li>
+                <li class="nav-item"><a href="#info-contato" class="nav-link">Contato</a></li>
             </ul>
         </div>
     </header>
 
     <main>
 
-        <h2 class="texto-informativo">Bem-vindo à nossa loja online <b>Vibra</b>, especializada em camisetas esportivas!
+        <h2 id="texto-apresentacao" class="texto-informativo">Bem-vindo à nossa loja online <b>Vibra</b>, especializada em camisetas esportivas!
             Aqui você encontrará uma variedade de opções para todos os gostos e estilos. Nossa seleção inclui designs
             modernos, materiais de alta qualidade e preços competitivos.</h2>
 
-        <section class="cards-camisa">
+        <section id="sobre" class="cards-camisa">
             <article class="card">
                 <img src="componente/imgCamisa1.png" alt="Camiseta 1">
                 <h2 class="descricao-camisa">Camisa feminina,perfeita para as corredoras em busca de estilo e conforto.
@@ -72,21 +72,29 @@
         <h2 class="texto-informativo">Nossa loja online oferece tudo que você precisa para se vestir bem e expressar sua
             personalidade. Contate-nos hoje e descubra por que somos a melhor opção para suas roupas esportivas!</h2>
 
-        <div class="contato">
-            <p><strong>Email:</strong> exemplo@email.com</p>
+        <div id="info-contato" class="contato">
+            <p><strong>Email:</strong> Vibra@email.com</p>
             <p><strong>Telefone:</strong> +55 1234-5678</p>
             <p><strong>Endereço:</strong> Rua Exemplo, Nº 123, Cidade, Estado - CEP 00000-000</p>
         </div>
     </main>
 
     <footer>
-        <div class="footer-container">
-            <div class="logo-section">
+        <div class="rodape">
                 <img src="componente/imgLogo.png" alt="Logo empresa" class="imgLogo">
                 <h1>Vibra</h1>
+            <div class="rede-social">
+                <h3>Conecte-se conosco nas redes sociais:</h3>
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank"><img src="componente/facebook.svg" alt="Facebook"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img src="componente/instagram.svg" alt="Instagram"></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><img src="componente/twitter.svg" alt="Twitter"></a></li>
+                    <li><a href="https://www.whatsapp.com/" target="_blank"><img src="componente/whatsapp.svg" alt="WhatsApp"></a></li>
+                </ul>
             </div>
         </div>
     </footer>
+    
 
     <script src="comportamento/script.js"></script>
 </body>

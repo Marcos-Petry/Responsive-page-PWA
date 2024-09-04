@@ -143,6 +143,17 @@ h1 {
     color: white;
 }
 
+.contato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contato p {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
 @media screen and (max-width: 730px) {
     .nav-bar {
         padding: 1.5rem 4rem;

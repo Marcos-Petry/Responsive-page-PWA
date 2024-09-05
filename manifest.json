@@ -1,0 +1,129 @@
+{
+  "name": "Vibra Modas Esportivas",
+  "short_name": "Vibra",
+  "description": "Loja de fabricação e vendas de camisetas esportivas",
+  "icons": [
+    {
+      "src": "/componente/iconMenu/menu36px.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "/componente/iconMenu/iconClose36px.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    },
+    {
+      "src": "/componente/redesSociais/facebook144px.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/componente/redesSociais/instagram144px.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/componente/redesSociais/twitter144px.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "/componente/redesSociais/whatsapp144px.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "background_color": "#000000",
+  "orientation": "portrait",
+  "scope": "/",
+  "prefer_related_app_link": true,
+  "related_app_links": [
+    {
+      "platform": "webos",
+      "url": "https://www.vibradesportivas.com.br/"
+    },
+    {
+      "platform": "android",
+      "url": "https://play.google.com/store/apps/details?id=com.vibradesportivas.app"
+    },
+    {
+      "platform": "ios",
+      "url": "https://apps.apple.com/br/app/vibrasportivas/id1234567890"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Inicio",
+      "description": "Retorna para o início da página",
+      "url": "./index.html",
+      "icons": [
+        {
+          "src": "/componente/pwa/pwa_atalhos/inicio.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Quem somos",
+      "description": "Um pouco sobre a empresa",
+      "url": "./index.html",
+      "icons": [
+        {
+          "src": "/componente/pwa/pwa_atalhos/quemSomos.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    },
+    {
+      "name": "Contato",
+      "description": "Formas de contato",
+      "url": "./index.html",
+      "icons": [
+        {
+          "src": "/componente/pwa/pwa_atalhos/contato.png",
+          "sizes": "96x96",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "componente/camisas/imgCamisa1.png",
+      "sizes": "360x360",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "componente/camisas/imgCamisa2.png",
+      "sizes": "626x626",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "componente/camisas/imgCamisa3.png",
+      "sizes": "626x381",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "componente/imgLogo.png",
+      "sizes": "1280x998",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "componente/pwa/imgHome.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "purpose": "any"
+    }
+  ]
+}

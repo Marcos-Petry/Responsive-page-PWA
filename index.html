@@ -21,17 +21,20 @@
                 <ul>
                     <li class="nav-item"><a href="#inicio-pag" class="nav-link">Início</a></li>
                     <li class="nav-item"><a href="#sobre" class="nav-link">Quem Somos</a></li>
+                    <li class="nav-item"><a href="#titulo-cliente" class="nav-link">Clientes</a></li>
                     <li class="nav-item"><a href="#info-contato" class="nav-link">Contato</a></li>
                 </ul>
             </div>
             <div class="menu-mobile">
-                <button onclick="menuShow()"><img class="icon" src="componente/iconMenu/menu36px.png" alt="Menu"></button>
+                <button onclick="menuShow()"><img class="icon" src="componente/iconMenu/menu36px.png"
+                        alt="Menu"></button>
             </div>
         </nav>
         <div class="mobile-menu">
             <ul>
                 <li class="nav-item"><a href="#inicio-pag" class="nav-link">Início</a></li>
                 <li class="nav-item"><a href="#sobre" class="nav-link">Quem Somos</a></li>
+                <li class="nav-item"><a href="#titulo-cliente" class="nav-link">Clientes</a></li>
                 <li class="nav-item"><a href="#info-contato" class="nav-link">Contato</a></li>
             </ul>
         </div>
@@ -39,7 +42,8 @@
 
     <main>
 
-        <h2 id="texto-apresentacao" class="texto-informativo">Bem-vindo à nossa loja online <b>Vibra</b>, especializada em camisetas esportivas!
+        <h2 id="texto-apresentacao" class="texto-informativo textos-tela-menor">Bem-vindo à nossa loja online <b>Vibra</b>, especializada
+            em camisetas esportivas!
             Aqui você encontrará uma variedade de opções para todos os gostos e estilos. Nossa seleção inclui designs
             modernos, materiais de alta qualidade e preços competitivos.</h2>
 
@@ -61,7 +65,7 @@
             </article>
         </section>
 
-        <h2 class="texto-informativo">Em 2005, dois apaixonados por esporte e estilo fundaram a Vibra, uma marca de moda
+        <h2 class="texto-informativo textos-tela-menor">Em 2005, dois apaixonados por esporte e estilo fundaram a Vibra, uma marca de moda
             esportiva que rapidamente se tornou sinônimo de conforto, performance e estilo. Com sede em São Paulo, a
             Vibra começou vendendo camisetas personalizadas nas ruas do centro da cidade. Nos anos seguintes, a empresa
             expandiu seu portfólio para incluir calças, tops e outros itens de roupa esportiva, ganhando uma base de
@@ -73,6 +77,36 @@
         <h2 class="texto-informativo">Nossa loja online oferece tudo que você precisa para se vestir bem e expressar sua
             personalidade. Contate-nos hoje e descubra por que somos a melhor opção para suas roupas esportivas!</h2>
 
+        <h2 id="titulo-cliente" class="texto-informativo sub-titulo">Visualize Nossos Principais Clientes, Junte-se a eles!</h2>
+
+        <section id="clientes" class="cartoes-clientes">
+            <article class="cartao-cliente">
+                <img src="componente/cliente/imgLions.png" alt="Cliente 1">
+                <div class="sobreposicao">
+                    <h2>Lions</h2>
+                    <p>O time "Lions" é sinônimo de garra e determinação em quadra. Com um logotipo marcante, que apresenta um leão em ação, simboliza força e competitividade.</p>
+                </div>
+            </article>
+            <article class="cartao-cliente">
+                <img src="componente/cliente/imgLobos.png" alt="Cliente 2">
+                <div class="sobreposicao">
+                    <h2>Wolf</h2>
+                    <p>O time "Wolf" é uma força indomável no cenário dos e-sports. Com um design que destaca um lobo feroz, representa astúcia e estratégia.</p>
+                </div>
+            </article>
+            <article class="cartao-cliente">
+                <img src="componente/cliente/imgKnight.png" alt="Cliente 3">
+                <div class="sobreposicao">
+                    <h2>Knight</h2>
+                    <p>O time "Knight" combina bravura e honra em cada competição. Com um cavaleiro em sua insignia, simboliza a luta justa e a perseverança.</p>
+                </div>
+            </article>
+        </section>
+        
+
+
+        <h2 class="texto-informativo sub-titulo">Entre em contato!</h2>
+
         <div id="info-contato" class="contato">
             <p><strong>Email:</strong> Vibra@email.com</p>
             <p><strong>Telefone:</strong> +55 1234-5678</p>
@@ -82,20 +116,24 @@
 
     <footer>
         <div class="rodape">
-                <img src="componente/imgLogo.png" alt="Logo empresa" class="imgLogo">
-                <h1>Vibra</h1>
+            <img src="componente/imgLogo.png" alt="Logo empresa" class="imgLogo">
+            <h1>Vibra</h1>
             <div class="rede-social">
                 <h3>Conecte-se conosco nas redes sociais:</h3>
                 <ul>
-                    <li><a href="https://www.facebook.com/" target="_blank"><img src="componente/redesSociais/facebook144px.png" alt="Facebook"></a></li>
-                    <li><a href="https://www.instagram.com/" target="_blank"><img src="componente/redesSociais/instagram144px.png" alt="Instagram"></a></li>
-                    <li><a href="https://twitter.com/" target="_blank"><img src="componente/redesSociais/twitter144px.png" alt="Twitter"></a></li>
-                    <li><a href="https://www.whatsapp.com/" target="_blank"><img src="componente/redesSociais/whatsapp144px.png" alt="WhatsApp"></a></li>
+                    <li><a href="https://www.facebook.com/" target="_blank"><img
+                                src="componente/redesSociais/facebook144px.png" alt="Facebook"></a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank"><img
+                                src="componente/redesSociais/instagram144px.png" alt="Instagram"></a></li>
+                    <li><a href="https://twitter.com/" target="_blank"><img
+                                src="componente/redesSociais/twitter144px.png" alt="Twitter"></a></li>
+                    <li><a href="https://www.whatsapp.com/" target="_blank"><img
+                                src="componente/redesSociais/whatsapp144px.png" alt="WhatsApp"></a></li>
                 </ul>
             </div>
         </div>
     </footer>
-    
+
 
     <script src="comportamento/script.js"></script>
 </body>
